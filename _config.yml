@@ -22,7 +22,7 @@ max_post: 5
 # Colors for links and top nanobar, use hex color without #
 tcolor: ff6f61
 ncolor: ffb7c5
-lighttheme_color: e3e3e3
+lighttheme_color: f0f0f0
 
 # Social profile at the footer/bottom, default close
 profile: false
