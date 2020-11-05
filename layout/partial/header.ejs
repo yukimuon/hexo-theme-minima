@@ -1,4 +1,12 @@
 <div class="row">
+  <script>
+    function setDarkMode() 
+    {
+      null == localStorage.getItem("preferredTheme")?localStorage.setItem("preferredTheme", "dark"):localStorage.removeItem("preferredTheme"),
+      document.body.classList.toggle("darkmode");
+    }
+    "dark" == localStorage.getItem("preferredTheme") && document.body.classList.toggle("darkmode");
+  </script>
   <style>
 
   a {
@@ -96,9 +104,6 @@
      <g>
      </g>
      </svg>
-        <script>
-          function setDarkMode(){null==localStorage.getItem("preferredTheme")?localStorage.setItem("preferredTheme","dark"):localStorage.removeItem("preferredTheme"),document.body.classList.toggle("darkmode")}"dark"==localStorage.getItem("preferredTheme")&&document.body.classList.toggle("darkmode")
-        </script>
     </h4>
 
   <div class="twelve columns">
