@@ -77,6 +77,19 @@ img {
   cursor: pointer;
 }
 
+.title {
+  position: relative;
+  width: auto;
+}
+
+.modeswitch {
+  cursor: pointer;
+  position: relative;
+  right: 0px;
+  top: 0;
+  float: right;
+}
+
 .text-center {
   text-align: center;
 }
@@ -151,6 +164,32 @@ body {
 
 .trans {
   animation: transitionPlay 0.7s;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.trans::-webkit-scrollbar {
+  display: none;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: rgb(128 128 128 / 80%);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgb(128 128 128 / 20%);
 }
 
 

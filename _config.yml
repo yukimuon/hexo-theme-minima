@@ -1,46 +1,48 @@
 # Title in header
-title: "Hexo theme Minima!"
+title: "雪、無音、窓辺にて。"
 
 # INFO
 # Owner info
-owner: "I am Adi Sakti Jrs!"
-info: "A student and web developer from Indonesia 🇮🇩"
+owner: ""
+info: "暖かい日差しを受けて　桃色の花びらが　飛び"
 # Description, will be displayed at second line
-desc: "This is Minima, a great minimal style theme for Hexo!"
+desc: "舞い散る雪の季節がまた　終わりを告げる　妖精よ　ふらふらり　現れてくる"
 
 # Main page top menu bar
 menu:
   Archives: /archives
-  About: /about
+  Playground: ../play
+  Externals: /external
+  PGP Key: https://pgp.yukimuon.com
+  .ME: /about
 
 # Index/main page max show posts (in number)
-max_post: 4
+max_post: 5
 
-# Colors use hex color without #
-# Theme color
-tcolor: 0FA0CE 
-# Nanobar color
-ncolor: FF5869
-lighttheme_color: ffdee4
+# Colors for links and top nanobar, use hex color without #
+tcolor: ff6f61
+ncolor: ffb7c5
+lighttheme_color: ededed
 
 # Social profile at the footer/bottom, default close
-footer: true
+profile: false
 place: 
 github: 
 instagram: 
 twitter: 
+date: false
 
 # Misc
 nanobar: /js/nanobar.min.js
-switch_light: ☀️
-switch_dard: 🌕
+switch: ☀️
+
 
 # Favicon
 favicon: /images/favicon.png
 
 article:
-  thumbnail: true
+  thumbnail: false
 
 # DISQUS comments (sign up to Disqus to get disqus_shortname). default close
 disqus_enabled: false
-disqus_shortname: https-adisaktijrs-github-io
+disqus_shortname:
