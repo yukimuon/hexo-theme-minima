@@ -10,7 +10,7 @@ Minima is an undoubtedly simple and lightweight dark/light mode theme for Hexo. 
 
 ## Why create this?
 This repo holds my personal config and modifications from the upstream, but some commits have conflicts and the commits are different from master, hard to merge and clean.  
-Stole a lot of from [Duchnovsky](https://github.com/pduchnovsky) and his [branch](https://github.com/pduchnovsky)!
+Stole a lot of IQ from [Duchnovsky](https://github.com/pduchnovsky) and his [branch](https://github.com/pduchnovsky/hexo-theme-minima)!
 
 ## Licence
 Minima is released under [MIT License](https://github.com/adisaktijrs/hexo-theme-minima/blob/master/LICENSE). Copyright © 2020 Adi Sakti Jrs
