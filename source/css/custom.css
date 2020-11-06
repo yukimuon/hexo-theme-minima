@@ -176,6 +176,11 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+body.darkmode {
+  background: rgb(35, 35, 35);
+  color: rgb(256, 256, 256);
+}
+
 .trans {
   animation: transitionPlay 0.7s;
   -ms-overflow-style: none;  /* IE and Edge */
