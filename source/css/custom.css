@@ -6,6 +6,7 @@ img {
 
 html {
   overflow: auto;
+  background: transparent;
 }
 
 .center {
