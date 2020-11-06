@@ -23,6 +23,7 @@ max_post: 5
 tcolor: ff6f61
 ncolor: ffb7c5
 lighttheme_color: f0f0f0
+darktheme_color: 212121
 
 # Social profile at the footer/bottom, default close
 profile: false
