@@ -12,9 +12,9 @@
 
   a {
     color: inherit;
-    text-decoration-color:  #<%= theme.tcolor %>;
+    text-decoration-color:  <%= theme.tcolor %>;
     background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.0) 50%, #<%= theme.tcolor %> 50%);
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.0) 50%, <%= theme.tcolor %> 50%);
     transition:
       background-position .2s ease-in-out,
       color .2s ease-in-out;
@@ -40,9 +40,7 @@
     background: #<%= theme.darktheme_color %>;
     color: #ffffff;
   }
-  
   </style>
-
     <h4 class="mt-2">
       <%= theme.title %>
         <!-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
