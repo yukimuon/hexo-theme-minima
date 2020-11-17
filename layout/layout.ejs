@@ -27,7 +27,6 @@
   }
   %>
   <title><%= title %></title>
-  <link rel="icon" href="images/favicon.png" type="image" sizes="8*8" style="filter: blur(8px);">
   <% if (is_page()){ %>
   <meta name="description" content="<%= page.description %>">
   <% } else if (page.content){ %>
@@ -125,8 +124,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="<%- theme.favicon %>">
-
+  <link rel="icon" href="https://yukimuon.com/blog/images/favicon.png" type="image" sizes="8*8" style="filter: blur(8px);">
 </head>
 
 <body>
@@ -145,6 +143,7 @@
 
   </div>
   <script src="<%- config.root + theme.nanobar %>"></script>
+  <script src="<%- config.root%>js/drop.js"></script>
   <script>
     var options = {
       classname: 'nanobar',
