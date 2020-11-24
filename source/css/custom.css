@@ -248,23 +248,23 @@ background-color: rgb(128 128 128 / 100%);
 
 
 .drop {
-  width: 4px;
-  height: 4px;
+  width: 1px;
+  height: 1px;
   position: absolute;
   top: 8px;
-  background-color: #ffb7c5;
+  background-color: #ffffff;
   border-radius: 2px;
-  animation: drop 6s infinite cubic-bezier(.63,.36,.93,.84);
+  animation: drop 8s infinite cubic-bezier(.63,.36,1,.84);
   z-index: 99;
 }
 
 @keyframes drop {
   from {
-    top: 8px;
+    top: 5px;
     filter: none;
   }
-  20% {
-    filter: none;
+  85% {
+    filter: blur(2px);
   }
   to {
     top: 95%;
